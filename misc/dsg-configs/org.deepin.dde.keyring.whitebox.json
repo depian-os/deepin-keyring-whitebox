@@ -1,0 +1,16 @@
+{
+    "magic": "dsg.config.meta",
+    "version": "1.0",
+    "contents": {
+        "autoOpenWhitebox": {
+            "value": false,
+            "serial": 0,
+            "flags": ["global"],
+            "name": "Auto Open Whitebox",
+            "name[zh_CN]": "",
+            "description": "是否自动开启白盒: \n值为True时自动开启。\n值为False时不自动开启，即按原方式处理。",
+            "permissions": "readonly",
+            "visibility": "private"
+        }
+    }
+}

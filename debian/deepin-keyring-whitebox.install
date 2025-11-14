@@ -1,0 +1,7 @@
+usr/bin/deepin-keyring-whitebox
+usr/lib/*/security
+usr/lib/*/libdeepin-keyring-whitebox.so.*
+usr/lib/polkit-1-dde/plugins
+etc/xdg/autostart
+etc/pam.d
+usr/share/dsg/configs/org.deepin.dde.keyring/org.deepin.dde.keyring.whitebox.json

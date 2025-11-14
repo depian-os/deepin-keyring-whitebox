@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/lib/@CMAKE_LIBRARY_ARCHITECTURE@
+includedir=${prefix}/include
+
+Name: deepin-keyring-whitebox
+Description: deepin keyring whitebox dev
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -ldeepin-keyring-whitebox
+Cflags: -I${includedir}
+Requires:

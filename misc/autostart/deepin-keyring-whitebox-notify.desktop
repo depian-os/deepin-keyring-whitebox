@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Deepin keyring whitebox notify
+Exec=/usr/bin/deepin-keyring-whitebox --opt-client=waitfifonotify
+NoDisplay=true
+OnlyShowIn=Deepin
+X-Deepin-Vendor=user-custom

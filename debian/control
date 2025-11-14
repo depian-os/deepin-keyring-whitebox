@@ -1,0 +1,32 @@
+Source: deepin-keyring-whitebox
+Section: devel
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends:
+ cmake,
+ debhelper-compat (= 11),
+ pkg-config,
+ libpam-dev,
+ dde-polkit-agent-dev,
+ qt6-base-dev,
+ libgtest-dev,
+Standards-Version: 4.1.3
+Homepage: https://www.deepin.org
+
+Package: deepin-keyring-whitebox
+Architecture: any
+Depends:
+ dde-crypto (>= 1.0.2),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: deepin whitebox extension for GNOME keyring.
+ This is an extension project provided by deepin, which implements a solution for a password free scenario of gnome keyring.
+
+Package: libdeepin-keyring-whitebox-dev
+Architecture: any
+Depends:
+ deepin-keyring-whitebox,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: deepin whitebox extension development Library.
+ The project encapsulates the details of the white box solution to avoid external involvement.
